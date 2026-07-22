@@ -1,4 +1,4 @@
-# ole-tools — Claude Code plugin marketplace
+# treehouses — Claude Code plugin marketplace
 
 A personal marketplace hosting the `kotlin-imports-plugin` (a Kotlin import
 sorter / unused-import remover). Maintain the skill here once; opt any project
@@ -17,15 +17,15 @@ plugins/kotlin-imports-plugin/
 
 ## Hosting
 
-This marketplace is hosted at `dogi/kotlin-import-sorting`. The
+This marketplace is hosted at `dogi/kotlin-importing`. The
 `.claude-plugin/marketplace.json` catalog lives at the repo root so Claude Code
 can discover it when the repo is added as a marketplace.
 
 ## Use it in the terminal (CLI)
 
 ```
-/plugin marketplace add dogi/kotlin-import-sorting
-/plugin install kotlin-imports-plugin@ole-tools
+/plugin marketplace add dogi/kotlin-importing
+/plugin install kotlin-imports-plugin@treehouses
 /reload-plugins
 ```
 
@@ -43,15 +43,15 @@ allowlist covers):
 ```json
 {
   "extraKnownMarketplaces": {
-    "ole-tools": {
+    "treehouses": {
       "source": {
         "source": "github",
-        "repo": "dogi/kotlin-import-sorting"
+        "repo": "dogi/kotlin-importing"
       }
     }
   },
   "enabledPlugins": {
-    "kotlin-imports-plugin@ole-tools": true
+    "kotlin-imports-plugin@treehouses": true
   }
 }
 ```
