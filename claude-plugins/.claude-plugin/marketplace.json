@@ -1,7 +1,7 @@
 {
-  "name": "stefan-tools",
+  "name": "ole-tools",
   "owner": {
-    "name": "stefan",
+    "name": "dogi",
     "email": "stefan@unterhauser.name"
   },
   "plugins": [
