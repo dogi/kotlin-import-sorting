@@ -1,6 +1,6 @@
 {
   "name": "kotlin-importing",
-  "description": "Adds a kotlin-imports skill: sort imports, remove unused imports, and normalize blank lines without running ktlint.",
+  "description": "Adds a kotlin-importing skill: sort imports, remove unused imports, and normalize blank lines without running ktlint.",
   "version": "1.0.0",
   "author": {
     "name": "dogi"
