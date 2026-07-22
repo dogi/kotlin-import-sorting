@@ -1,6 +1,6 @@
 {
   "name": "kotlin-importing",
-  "description": "Adds a massage skill: sort imports, remove unused imports, and normalize blank lines without running ktlint.",
+  "description": "Adds a sort skill: sort imports, remove unused imports, and normalize blank lines without running ktlint.",
   "version": "1.0.0",
   "author": {
     "name": "dogi"

@@ -10,7 +10,7 @@ into it — including **Claude Code on the web / cloud** sessions.
 .claude-plugin/marketplace.json          # marketplace catalog
 plugins/kotlin-importing/
 ├── .claude-plugin/plugin.json           # plugin manifest
-└── skills/massage/
+└── skills/sort/
     ├── SKILL.md                         # skill definition
     └── kotlin-importing.py                  # the tool
 ```
@@ -29,7 +29,7 @@ can discover it when the repo is added as a marketplace.
 /reload-plugins
 ```
 
-Then invoke: `/kotlin-importing:massage` (or just ask to "sort the
+Then invoke: `/kotlin-importing:sort` (or just ask to "sort the
 Kotlin imports" — the description auto-triggers it).
 
 ## Use it on Claude Code web / cloud

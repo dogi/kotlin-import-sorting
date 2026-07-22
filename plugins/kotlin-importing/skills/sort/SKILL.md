@@ -1,5 +1,5 @@
 ---
-name: massage
+name: sort
 description: Sort Kotlin import blocks, remove unused imports, and normalize blank lines around imports in any Kotlin/Android project. Use when asked to clean up, sort, or organize imports in .kt files, or to remove unused imports without running ktlint.
 ---
 
@@ -23,7 +23,7 @@ For every `*.kt` file under the given roots:
 ## How to run
 
 The `kotlin-importing.py` script is bundled next to this SKILL.md inside the plugin.
-Locate it in this skill's directory (`${CLAUDE_PLUGIN_ROOT}/skills/massage/kotlin-importing.py`)
+Locate it in this skill's directory (`${CLAUDE_PLUGIN_ROOT}/skills/sort/kotlin-importing.py`)
 and run it against the project's Kotlin source root(s):
 
 ```bash
