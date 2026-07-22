@@ -1,4 +1,4 @@
-# stefan-tools — Claude Code plugin marketplace
+# ole-tools — Claude Code plugin marketplace
 
 A personal marketplace hosting the `kotlin-imports-plugin` (a Kotlin import
 sorter / unused-import remover). Maintain the skill here once; opt any project
@@ -15,22 +15,17 @@ plugins/kotlin-imports-plugin/
     └── sort_imports.py                  # the tool
 ```
 
-## One-time: host it
+## Hosting
 
-Push this directory to a GitHub repo you own, e.g. `stefan/claude-plugins`:
-
-```bash
-git init && git add -A && git commit -m "kotlin-imports marketplace"
-git branch -M main
-git remote add origin git@github.com:stefan/claude-plugins.git
-git push -u origin main
-```
+This marketplace is hosted at `dogi/kotlin-import-sorting`. The
+`.claude-plugin/marketplace.json` catalog lives at the repo root so Claude Code
+can discover it when the repo is added as a marketplace.
 
 ## Use it in the terminal (CLI)
 
 ```
-/plugin marketplace add stefan/claude-plugins
-/plugin install kotlin-imports-plugin@stefan-tools
+/plugin marketplace add dogi/kotlin-import-sorting
+/plugin install kotlin-imports-plugin@ole-tools
 /reload-plugins
 ```
 
@@ -48,15 +43,15 @@ allowlist covers):
 ```json
 {
   "extraKnownMarketplaces": {
-    "stefan-tools": {
+    "ole-tools": {
       "source": {
         "source": "github",
-        "repo": "stefan/claude-plugins"
+        "repo": "dogi/kotlin-import-sorting"
       }
     }
   },
   "enabledPlugins": {
-    "kotlin-imports-plugin@stefan-tools": true
+    "kotlin-imports-plugin@ole-tools": true
   }
 }
 ```
