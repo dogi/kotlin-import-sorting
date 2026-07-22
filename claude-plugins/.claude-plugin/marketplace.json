@@ -1,0 +1,14 @@
+{
+  "name": "stefan-tools",
+  "owner": {
+    "name": "stefan",
+    "email": "stefan@unterhauser.name"
+  },
+  "plugins": [
+    {
+      "name": "kotlin-imports-plugin",
+      "source": "./plugins/kotlin-imports-plugin",
+      "description": "Sort Kotlin imports, remove unused imports, and normalize blank lines around the import block."
+    }
+  ]
+}
