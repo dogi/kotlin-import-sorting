@@ -1,0 +1,8 @@
+{
+  "name": "kotlin-imports-plugin",
+  "description": "Adds a kotlin-imports skill: sort imports, remove unused imports, and normalize blank lines without running ktlint.",
+  "version": "1.0.0",
+  "author": {
+    "name": "stefan"
+  }
+}
