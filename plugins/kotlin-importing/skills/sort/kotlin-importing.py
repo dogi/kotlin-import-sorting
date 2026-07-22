@@ -2,8 +2,8 @@
 """Sort Kotlin imports, remove unused imports, and normalize blank lines.
 
 Usage:
-    python3 sort_imports.py [ROOT ...]      # roots to scan; default: current dir
-    python3 sort_imports.py --check [ROOT]  # report only, do not modify
+    python3 kotlin-importing.py [ROOT ...]      # roots to scan; default: current dir
+    python3 kotlin-importing.py --check [ROOT]  # report only, do not modify
 
 For each *.kt file found under the given roots this:
   * sorts the import block alphabetically by import path (ASCII, ktlint-compatible),

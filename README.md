@@ -1,6 +1,6 @@
 # treehouses — Claude Code plugin marketplace
 
-A personal marketplace hosting the `kotlin-imports-plugin` (a Kotlin import
+A personal marketplace hosting the `kotlin-importing` (a Kotlin import
 sorter / unused-import remover). Maintain the skill here once; opt any project
 into it — including **Claude Code on the web / cloud** sessions.
 
@@ -8,11 +8,11 @@ into it — including **Claude Code on the web / cloud** sessions.
 
 ```
 .claude-plugin/marketplace.json          # marketplace catalog
-plugins/kotlin-imports-plugin/
+plugins/kotlin-importing/
 ├── .claude-plugin/plugin.json           # plugin manifest
-└── skills/kotlin-imports/
+└── skills/sort/
     ├── SKILL.md                         # skill definition
-    └── sort_imports.py                  # the tool
+    └── kotlin-importing.py                  # the tool
 ```
 
 ## Hosting
@@ -25,11 +25,11 @@ can discover it when the repo is added as a marketplace.
 
 ```
 /plugin marketplace add dogi/kotlin-importing
-/plugin install kotlin-imports-plugin@treehouses
+/plugin install kotlin-importing@treehouses
 /reload-plugins
 ```
 
-Then invoke: `/kotlin-imports-plugin:kotlin-imports` (or just ask to "sort the
+Then invoke: `/kotlin-importing:sort` (or just ask to "sort the
 Kotlin imports" — the description auto-triggers it).
 
 ## Use it on Claude Code web / cloud
@@ -51,7 +51,7 @@ allowlist covers):
     }
   },
   "enabledPlugins": {
-    "kotlin-imports-plugin@treehouses": true
+    "kotlin-importing@treehouses": true
   }
 }
 ```

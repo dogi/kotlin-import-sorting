@@ -2,12 +2,12 @@
   "name": "treehouses",
   "owner": {
     "name": "dogi",
-    "email": "stefan@unterhauser.name"
+    "email": "dogi@users.noreply.github.com"
   },
   "plugins": [
     {
-      "name": "kotlin-imports-plugin",
-      "source": "./plugins/kotlin-imports-plugin",
+      "name": "kotlin-importing",
+      "source": "./plugins/kotlin-importing",
       "description": "Sort Kotlin imports, remove unused imports, and normalize blank lines around the import block."
     }
   ]
