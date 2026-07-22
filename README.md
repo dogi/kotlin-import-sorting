@@ -1,4 +1,4 @@
-# treehouses — Claude Code plugin marketplace
+# dogi — Claude Code plugin marketplace
 
 A personal marketplace hosting the `kotlin-importing` (a Kotlin import
 sorter / unused-import remover). Maintain the skill here once; opt any project
@@ -25,7 +25,7 @@ can discover it when the repo is added as a marketplace.
 
 ```
 /plugin marketplace add dogi/kotlin-importing
-/plugin install kotlin-importing@treehouses
+/plugin install kotlin-importing@dogi
 /reload-plugins
 ```
 
@@ -43,7 +43,7 @@ allowlist covers):
 ```json
 {
   "extraKnownMarketplaces": {
-    "treehouses": {
+    "dogi": {
       "source": {
         "source": "github",
         "repo": "dogi/kotlin-importing"
@@ -51,7 +51,7 @@ allowlist covers):
     }
   },
   "enabledPlugins": {
-    "kotlin-importing@treehouses": true
+    "kotlin-importing@dogi": true
   }
 }
 ```
