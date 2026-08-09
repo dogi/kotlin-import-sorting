@@ -1,5 +1,5 @@
 ---
-name: sort
+name: importing
 description: Sort Kotlin import blocks, remove unused imports, and normalize blank lines around imports in any Kotlin/Android project. Use when asked to clean up, sort, or organize imports in .kt files, or to remove unused imports without running ktlint.
 ---
 
