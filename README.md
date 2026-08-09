@@ -10,7 +10,7 @@ into it — including **Claude Code on the web / cloud** sessions.
 .claude-plugin/marketplace.json          # marketplace catalog
 plugins/kotlin-importing/
 ├── .claude-plugin/plugin.json           # plugin manifest
-└── skills/sort/
+└── skills/importing/
     ├── SKILL.md                         # skill definition
     └── kotlin-importing.py                  # the tool
 ```
