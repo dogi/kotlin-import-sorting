@@ -23,7 +23,7 @@ For every `*.kt` file under the given roots:
 ## How to run
 
 The `kotlin-importing.py` script is bundled next to this SKILL.md inside the plugin.
-Locate it in this skill's directory (`${CLAUDE_PLUGIN_ROOT}/skills/sort/kotlin-importing.py`)
+Locate it in this skill's directory (`${CLAUDE_PLUGIN_ROOT}/skills/importing/kotlin-importing.py`)
 and run it against the project's Kotlin source root(s):
 
 ```bash
